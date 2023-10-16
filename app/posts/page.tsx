@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from "date-fns"
-import { allPosts } from '@/.contentlayer/generated'
+import { allPosts, Post } from '@/.contentlayer/generated'
 import { Metadata } from 'next'
 import Header from "@/components/Header";
 
@@ -34,7 +34,6 @@ function Posts() {
         <div className="w-full h-screen flex justify-center">
         <div className="xl:w-[70%] w-full h-full flex flex-col ">
             <Header />
-
             <div className="w-full h-fit overflow-auto space-y-10 flex flex-col xl:px-48 px-10 pt-20">
             {posts.map((post, idx) => (
                 <PostCard key={idx} {...post} />

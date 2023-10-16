@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import styles from './page.module.css'
 import { BsArrowRightShort } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Blogs - Next.js App Dir Blog",
