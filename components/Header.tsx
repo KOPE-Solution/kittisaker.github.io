@@ -17,7 +17,7 @@ function Header() {
               className="w-[100px] h-[100px]"
               priority
             /> */}
-            <h1 className="font-semibold ml-2  text-[1.800rem]">Samiti.dev</h1>
+            <h1 className="font-semibold ml-2  text-[1.800rem]">Kope.dev</h1>
           </Link>
           {/* <Link
             href="https://vercel.com"
