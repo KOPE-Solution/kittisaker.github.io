@@ -6,7 +6,8 @@ import { Metadata } from 'next'
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-    title: "Blogs - Next.js App Dir Blog",
+  title: "ทำเว็บไซต์ เว็บแอพฯ พร้อมเว็บแอดมิน - Samiti.dev",
+  description: "ให้คำปรึกษา และจัดทำเว็บไซต์ ขนาดเล็ก กลาง และใหญ่ พร้อมเว็บแอดมินรายเดือน ค่อยดูแลตลอด 24 ชั่วโมง"
 };
 
 function PostCard(post: Post) {

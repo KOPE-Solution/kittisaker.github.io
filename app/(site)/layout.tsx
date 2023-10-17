@@ -1,8 +1,15 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, IBM_Plex_Sans_Thai } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const ibm_plex_sans_thai = IBM_Plex_Sans_Thai({
+  subsets: ['latin'],
+  variable: '--font-ibm_plex_sans_thai',
+  display: 'swap',
+  weight: "400"
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="th">
+    <html lang="th" className={`${ibm_plex_sans_thai.variable}`}>
       <body className={inter.className}>{children}</body>
     </html>
   )
