@@ -39,7 +39,7 @@ export default function Home() {
               สมิติเดฟ<br /> รับเขียนเว็บ และโมบายแอปพลิเคชัน
             </h1>
             <p className="text-center leading-[1.8]  w-[280px] text-slate-500 mt-10 sm:w-[600px] md:w-[650px]">
-              "สมิติ" แปลว่า "รวม" ทำให้เว็บแห่งนี้ เป็นแหล่งรวมเดฟ ที่ชื่นชอบ และถนัดการพัฒนาระบบซอฟแวต์ ไม่ว่าจะเป็น Web Application หรือ Android & iOS (Mobile Application)</p>
+            &quot;สมิติ&quot; แปลว่า &quot;รวม&quot; ทำให้เว็บแห่งนี้ เป็นแหล่งรวมเดฟที่มีฝีมือ ที่ชื่นชอบ และถนัดการพัฒนาระบบซอฟแวต์ ไม่ว่าจะเป็น Web Application หรือ Android & iOS (Mobile Application)</p>
             <p className="text-center leading-[1.8]  w-[280px] text-slate-500 mt-2 sm:w-[600px] md:w-[650px]"> จัดทำไม่เกินงบ พร้อมมี Suport Dev รายเดือนค่อย Support ตลอด 24 ชั่วโมง หมดปัญหา
               การแก้บัคที่ไม่ทันการณ์ สำหรับธุรกิจ Startup เราพร้อมให้คำปรึกษาฟรี
             </p>

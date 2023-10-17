@@ -3,6 +3,7 @@ import { allPosts } from 'contentlayer/generated'
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import CodeSnippet from '@/components/CodeSnippet'
 import Header from '@/components/Header'
+import React, { PropsWithChildren } from 'react'
 // import MDXComponents from '@/utils/mdxcomponents'
 
 export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
@@ -17,7 +18,7 @@ const Button = (props: PropsWithChildren) => (
   <button {...props} style={{backgroundColor:"blue",borderRadius:"5px",color:"white",padding:"2px 10px"}}  >{props.children}</button>
  );
 
-const ButtonLink = (props: PropsWithChildren) => (
+const ButtonLink = (props: any) => (
   <a href={props.href} target='__blank'>
     <button {...props} style={{backgroundColor:"blue",borderRadius:"5px",color:"white",padding:"2px 10px"}}  >{props.children}</button>
   </a>

@@ -1,9 +1,7 @@
 "use client"
-import React from 'react'
-import { Snippet, PropsWithChildren } from "@geist-ui/core";
+import { Snippet } from "@geist-ui/core";
 
-
-function CodeSnippet( props: PropsWithChildren ) {
+function CodeSnippet( props: any ) {
   return (
     <>
         <Snippet {...props} text={props.text}  />
